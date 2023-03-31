@@ -14,15 +14,13 @@ export async function middleware(req) {
     return NextResponse.next();
   }
 
-//   redirect to login page if no token and requesting a protected route
-if(!Token && pathname != '/login'){
-    return NextResponse.redirect(new URL('/login', req.url))
-
-}
-
+  //   redirect to login page if no token and requesting a protected route
+  if (!Token && pathname != "/login") {
+    return NextResponse.redirect(new URL("/login", req.url));
+  }
 }
 
 // if you get in your console log few errors stg like this: "SyntaxError: Unexpected token <", just add following in your middleware.js
 export const config = {
   matcher: "/",
-  };
+};
