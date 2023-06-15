@@ -1,3 +1,7 @@
+
+![Screenshot from 2023-06-16 01-05-41](https://github.com/msaqib11/spotify-v2/assets/79469984/cbb3c66d-57a5-4cf8-982f-4c954fc79593)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
